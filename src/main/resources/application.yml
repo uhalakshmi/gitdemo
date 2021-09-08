@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+ application:    name: RevatureProductApp
+ datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+    
+company:
+  companyname: RevatureIndiaPvtLtd
+  companylocation: bangalore
+  companyaddress: electroniccity
+  
+  
